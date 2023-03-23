@@ -9,3 +9,6 @@ conn_string = 'postgresql:///monsters_db'
 
 conn = create_engine(conn_string)
 df.to_sql('monsters', conn, if_exists='replace')
+
+def test_method():
+    pass
