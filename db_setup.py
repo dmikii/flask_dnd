@@ -1,7 +1,7 @@
 import warnings
 warnings.simplefilter(action='ignore')
 import pandas as pd
-csv = "d&d5e_monsters.csv"
+csv = "monsters_alt.csv"
 df = pd.read_csv(csv)
 
 from sqlalchemy import create_engine
